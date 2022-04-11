@@ -1,0 +1,23 @@
+{
+  "name": "basic-mern-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"cd client && npm start\" \"cd server && npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surajshende247/basic-mern-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/surajshende247/basic-mern-starter/issues"
+  },
+  "homepage": "https://github.com/surajshende247/basic-mern-starter#readme",
+  "dependencies": {
+    "concurrently": "^7.1.0"
+  }
+}
